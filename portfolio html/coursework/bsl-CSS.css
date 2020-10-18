@@ -1,0 +1,264 @@
+/*backgroud colour on the outisde of the page*/
+html{
+	background-color:#c4bebe;
+}
+
+/*This implements the central white background used for the text and images*/
+body{
+	position: relative;
+	font-size: 12px;
+	margin: 0 auto;
+	background-color:#FFFFFF;
+	max-width:860px;
+	min-width:510px;
+	}
+/*Defines that font, size and colour of title as well as image in right hand corner*/
+h1{
+	position: relative;
+	font-family:"Lucida Sans Unicode", "Lucida Grande","Lucida Sans","Geneva","Verdana","sans-serif";
+	font-size: 34px;
+	padding-left: 10px;
+	padding-bottom:30px;
+	background-image:url("http://homepages.cs.ncl.ac.uk/harold.fellermann/csc8004/css/sign_language.png");
+	color:#054c82;
+	background-position: right bottom;
+	border-bottom:10px solid #004A85;
+	background-repeat: no-repeat;
+}
+/*Defines that font, size and colour of subheadings*/
+h2{
+	font-family:"Lucida Sans Unicode", "Lucida Grande","Lucida Sans","Geneva","Verdana","sans-serif";
+	font-size: 24px;
+	padding-bottom:20px;
+	color:#054c82;
+	margin-left: 10px;
+}
+
+/*Defines that font, size and colour of subheadings of Letters and Numbers*/
+h3{
+	font-family:"Lucida Sans Unicode","Lucida Grande","Lucida Sans","Geneva","Verdana","sans-serif";
+	font-size: 18px;
+	color:#054c82;
+	margin-left: 10px;
+}
+
+/*Defines that font, size and colour of the text*/
+p{	
+	font-family:"Lucida Sans Unicode","Lucida Grande","Lucida Sans","Geneva","Verdana","sans-serif";
+	
+	color:#000000;
+	font-size: 13px;
+	margin-left: 10px;
+	margin-right: 20px;
+	font-weight: normal;
+}
+
+
+/*Defines that font, size and colour of the different bulletpoints*/
+li{
+	font-family:"Lucida Sans Unicode","Lucida Grande","Lucida Sans","Geneva","Verdana","sans-serif";
+	
+	color:#000000;
+	font-size: 13px;
+	font-weight: normal;
+	}
+
+/*styles the size, width and colour of the page breaks*/
+hr{
+	background:#054c82;
+	color:#054c82;
+	position: relative;
+	height: 10px;
+	width: 100%;
+	/*overflow: visible;*/
+
+}
+
+/*sets the layout for the top navigation*/
+.topnav {
+	background-color: #054c82;
+	overflow: hidden;
+}
+
+.topnav a {
+	float: right;
+	display: block;
+	color: #ffffff;
+	text-align: center;
+	padding: 12px 16px;
+	text-decoration: none;
+
+}
+
+.topnav a:hover{
+	background-color: #96a3d4;
+	color: black;
+}
+
+.content {
+	background-color: #96a3d4;
+	padding: 10px;
+}
+/*embeds an image linking to NCL page  */
+#history img{
+	background-image:url("http://homepages.cs.ncl.ac.uk/harold.fellermann/csc8004/css/420x370-box.png");
+	float:right;
+	background-position: 100% 0%;
+	margin-left: 20px;
+	margin-right: 10px;
+	border-left: 20px;
+}
+
+#linguistics{
+	padding: 10px;
+	max-width:900px;
+	height:900px;
+	border-bottom: 5px;
+}
+/*Makes sure the map image is set inside the holder*/
+#map img{
+	width:100%;
+}
+
+
+.signLang{
+	text-align:center;
+	border-bottom:2px solid #054c82;
+}
+
+#legend{
+	font-weight:normal;
+	padding-left: 5px;
+}
+/*Aligns the images of the legend*/
+#families img{
+	float: left;
+	padding-right: 10px;
+}
+/*Aligns the text of the legend*/
+#families p{
+	line-height: 0.9;
+	font-size: 90%;
+	padding-left: 5px;
+}
+
+#holder{
+	border: 3px;
+	padding: 10px;
+	margin-right:20px;
+	float: left;
+	width:45%;
+}
+
+#holderImage img{
+	width: 100%;
+}
+/*sets everything inside the holder*/
+.holder{
+	width:450px;
+	border-style:double;
+	position:relative;
+	top:5px;
+	left:5px;
+	bottom:3px;
+	float: left;
+	margin-bottom: 20px;
+}
+
+.holder .holderImage img{
+	position: relative;
+	width:95%;
+
+} 
+
+.holder .holderImage .sign{
+	color: #054c82;
+}
+
+.holder .legend{
+	position: relative;
+	left:20px;
+}
+
+
+#paragraph p{
+	margin-left: 470px;
+}
+
+#paragraph ul{
+	margin-left: 470px;
+}
+
+
+
+/*Video link is embededed insde*/
+#video{
+	float: right;background-image:url("http://homepages.cs.ncl.ac.uk/harold.fellermann/csc8004/css/460x320-box.png");
+	background-repeat: no-repeat;
+	background-position: 100%;
+	margin-right: 5px;
+	margin-left: 5px;
+	border-left: 10px;
+	padding: 10px 10px;
+	}
+/*places the video object centrally in the padded box*/
+#video object{
+	position: relative;
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 15px;
+}
+/*centers the text underneath the video*/
+#video p{
+	font-size:12px;
+	text-align: center;
+}
+
+/*Sets the layout so that the images are not arranged vertically*/
+.container{
+	display: inline-block;
+	max-width:960px;
+}
+/*Sets that font size of the text in the container*/
+.container p span{
+	font-size: 10px;
+}
+/*Sets a red colour for the text of the subheadings*/
+.red{
+	color: #E50000;
+	display:inline;
+}
+
+/*Styles the borders under the letters page*/
+#letters{
+	border-bottom: 10px solid #054c82;
+}
+/*Sets the layout for the text below thbe letters and numbers imgaes*/
+#letters p, #numbers p{
+background-color:#054c82;
+color: #FFFFFF;
+width: 100px;
+text-align: center;
+border-left: 2px solid gray;
+border-right: 2px solid gray;
+border-bottom: 2px solid gray;
+font-size: 12px;
+}
+/*sets the layout for the squares of the numbers and letters images*/
+#letters img, #numbers img {
+	margin-left: 10px;
+	border-top: 2px solid gray;
+	border-left: 2px solid gray;
+	border-right: 2px solid gray;
+	border-bottom: 2px solid gray;
+}
+
+
+/*aligns the text for the wiki page to the bottom right hand corner*/
+#wiki{
+	text-align: right;
+	padding-bottom: 5px;
+	padding-right: 10px;
+	font-size: 12px;
+}
+
